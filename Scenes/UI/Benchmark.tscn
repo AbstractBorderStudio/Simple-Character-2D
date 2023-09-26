@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://dh81caxmfnfos"]
+
+[ext_resource type="Script" path="res://Scripts/UI/Benchmark.cs" id="1_hnpbw"]
+
+[node name="Benchmark" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Panel" type="Panel" parent="."]
+modulate = Color(1, 1, 1, 0.392157)
+layout_mode = 0
+offset_left = 16.0
+offset_top = 18.0
+offset_right = 117.0
+offset_bottom = 71.0
+
+[node name="Label" type="Label" parent="."]
+modulate = Color(0.258824, 0.572549, 0.321569, 1)
+layout_mode = 0
+offset_left = 29.0
+offset_top = 30.0
+offset_right = 106.0
+offset_bottom = 58.0
+text = "FPS: 100"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("1_hnpbw")

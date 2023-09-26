@@ -1,0 +1,17 @@
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\bin\Debug\TTSWY.deps.json
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\bin\Debug\TTSWY.runtimeconfig.json
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\bin\Debug\TTSWY.dll
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\bin\Debug\TTSWY.pdb
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\obj\Debug\TTSWY.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\obj\Debug\TTSWY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\obj\Debug\TTSWY.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\obj\Debug\TTSWY.AssemblyInfo.cs
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\obj\Debug\TTSWY.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\obj\Debug\TTSWY.csproj.CopyComplete
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\obj\Debug\TTSWY.dll
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\obj\Debug\refint\TTSWY.dll
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\obj\Debug\TTSWY.pdb
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\obj\Debug\TTSWY.genruntimeconfig.cache
+C:\Users\danie\Documents\Godot\TTSWY\.godot\mono\temp\obj\Debug\ref\TTSWY.dll

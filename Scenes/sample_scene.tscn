@@ -1,0 +1,67 @@
+[gd_scene load_steps=7 format=3 uid="uid://chavd5vofp816"]
+
+[ext_resource type="PackedScene" uid="uid://dh81caxmfnfos" path="res://Scenes/UI/Benchmark.tscn" id="1_3bxc4"]
+[ext_resource type="PackedScene" uid="uid://djslgi6lagpj1" path="res://Scenes/player.tscn" id="2_15cq7"]
+[ext_resource type="Script" path="res://Scripts/Controllers/CharacterController.cs" id="3_1q4yi"]
+[ext_resource type="PackedScene" uid="uid://cii6mitg0id1r" path="res://Scenes/Platform.tscn" id="4_c8m2e"]
+[ext_resource type="PackedScene" uid="uid://6ehinr48e5m4" path="res://Scenes/Trail.tscn" id="4_kcn0j"]
+[ext_resource type="Texture2D" uid="uid://ds01daa8gl4wc" path="res://Textures/jumpmeter.png" id="6_wnt54"]
+
+[node name="SampleScene" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("2_15cq7")]
+position = Vector2(311, 611)
+script = ExtResource("3_1q4yi")
+maxSpeed = 15.0
+maxAcceleration = 500.0
+maxAirAcceleration = 400.0
+jumpHeight = 200.0
+timeToPeak = 0.35
+timeToFall = 0.3
+jumpBufferLimit = 0.15
+coyoteTime = 0.1
+jumpHeightScale = 2.0
+maxAirJumps = 3
+dashTime = 0.1
+dashSpeedMultiplier = 1.1
+dashCooldown = 0.3
+
+[node name="Trail" parent="." node_paths=PackedStringArray("target") instance=ExtResource("4_kcn0j")]
+default_color = Color(0.333333, 0.65098, 0.894118, 1)
+maxLenght = 100
+offset = -32
+target = NodePath("../Player")
+
+[node name="Platform" parent="." instance=ExtResource("4_c8m2e")]
+position = Vector2(577, 653)
+scale = Vector2(18.72, 0.56)
+
+[node name="Platform2" parent="." instance=ExtResource("4_c8m2e")]
+position = Vector2(879, 590)
+rotation = -0.54806
+scale = Vector2(1.48872, 0.392147)
+
+[node name="Platform5" parent="." instance=ExtResource("4_c8m2e")]
+position = Vector2(1043, 544)
+scale = Vector2(1.48872, 0.392147)
+
+[node name="Platform3" parent="." instance=ExtResource("4_c8m2e")]
+position = Vector2(704, 411)
+scale = Vector2(1.48872, 0.392147)
+
+[node name="Platform4" parent="." instance=ExtResource("4_c8m2e")]
+position = Vector2(381, 248)
+scale = Vector2(1.48872, 0.392147)
+
+[node name="Platform8" parent="." instance=ExtResource("4_c8m2e")]
+position = Vector2(10, 352)
+scale = Vector2(1.48872, 0.392147)
+
+[node name="MainCamera" type="Camera2D" parent="."]
+position = Vector2(576, 324)
+
+[node name="Jumpmeter" type="Sprite2D" parent="."]
+position = Vector2(1055, 19)
+texture = ExtResource("6_wnt54")
+
+[node name="Benchmark" parent="." instance=ExtResource("1_3bxc4")]

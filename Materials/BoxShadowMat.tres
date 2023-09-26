@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cx7r63nrx054s"]
+
+[ext_resource type="Shader" path="res://Shaders/boxMat.gdshader" id="1_x7kwj"]
+
+[resource]
+shader = ExtResource("1_x7kwj")
+shader_parameter/color = Color(0, 0, 0, 0.196078)

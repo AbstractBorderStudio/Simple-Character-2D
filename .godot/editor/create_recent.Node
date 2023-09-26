@@ -1,0 +1,14 @@
+Sprite2D
+Node
+GPUParticles2D
+Camera2D
+Label
+Panel
+Control
+CollisionShape2D
+StaticBody2D
+Line2D
+ShapeCast2D
+CharacterBody2D
+RigidBody2D
+Area2D

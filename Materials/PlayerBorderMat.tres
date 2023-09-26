@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://bbemdw2k5g4bc"]
+
+[ext_resource type="Shader" path="res://Shaders/boxBorderMat.gdshader" id="1_lg4mr"]
+
+[resource]
+shader = ExtResource("1_lg4mr")
+shader_parameter/color = Color(1, 1, 1, 1)
+shader_parameter/size = 0.1

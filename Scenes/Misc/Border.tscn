@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://4nnlad84314w"]
+
+[ext_resource type="Material" uid="uid://bbemdw2k5g4bc" path="res://Materials/PlayerBorderMat.tres" id="1_puyl7"]
+[ext_resource type="Texture2D" uid="uid://caw5xjspc3qv2" path="res://icon.svg" id="2_oij83"]
+
+[node name="Border" type="Sprite2D"]
+material = ExtResource("1_puyl7")
+texture = ExtResource("2_oij83")

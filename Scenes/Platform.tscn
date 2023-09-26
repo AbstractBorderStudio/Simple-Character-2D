@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://cii6mitg0id1r"]
+
+[ext_resource type="Material" uid="uid://cww3qjvq2d3sl" path="res://Materials/BoxMat.tres" id="1_d2s5u"]
+[ext_resource type="Texture2D" uid="uid://caw5xjspc3qv2" path="res://icon.svg" id="1_kwjf4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hvx48"]
+size = Vector2(128, 128)
+
+[node name="Platform" type="StaticBody2D"]
+
+[node name="Texture" type="Sprite2D" parent="."]
+material = ExtResource("1_d2s5u")
+texture = ExtResource("1_kwjf4")
+
+[node name="Collider" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_hvx48")

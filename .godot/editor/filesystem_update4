@@ -1,0 +1,5 @@
+res://Scenes/sample_scene.tscn
+res://Shaders/boxMat.gdshader
+res://Materials/PlayerMat.tres
+res://Materials/BoxMat.tres
+res://Shaders/boxBorderMat.gdshader
