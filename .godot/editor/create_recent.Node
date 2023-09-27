@@ -1,10 +1,12 @@
 Sprite2D
+Node2D
+CanvasLayer
+Panel
+Control
 Node
 GPUParticles2D
 Camera2D
 Label
-Panel
-Control
 CollisionShape2D
 StaticBody2D
 Line2D

@@ -64,4 +64,6 @@ position = Vector2(576, 324)
 position = Vector2(1055, 19)
 texture = ExtResource("6_wnt54")
 
-[node name="Benchmark" parent="." instance=ExtResource("1_3bxc4")]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Benchmark" parent="CanvasLayer" instance=ExtResource("1_3bxc4")]

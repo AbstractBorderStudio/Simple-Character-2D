@@ -20,6 +20,10 @@ config/icon="res://ttswyLogo.png"
 
 project/assembly_name="TTSWY"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/kanban_tasks/plugin.cfg")
+
 [input]
 
 jump={

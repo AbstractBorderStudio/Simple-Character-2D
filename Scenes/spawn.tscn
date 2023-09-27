@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://cf0j5trqunf7s"]
+
+[ext_resource type="Texture2D" uid="uid://caw5xjspc3qv2" path="res://icon.svg" id="1_b047r"]
+[ext_resource type="Shader" path="res://Shaders/ballMat.gdshader" id="1_e70kr"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_37afm"]
+shader = ExtResource("1_e70kr")
+shader_parameter/innerRad = 0.45
+shader_parameter/outerRad = 0.5
+shader_parameter/_inColor = Color(0.184314, 0.509804, 0.517647, 1)
+shader_parameter/_outColor = Color(0.12549, 0.313726, 0.321569, 1)
+
+[node name="spawn" type="Node2D"]
+
+[node name="sprite" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_37afm")
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_b047r")
