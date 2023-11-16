@@ -1,0 +1,16 @@
+Panel
+Label
+Control
+Sprite2D
+Node2D
+CanvasLayer
+Node
+GPUParticles2D
+Camera2D
+CollisionShape2D
+StaticBody2D
+Line2D
+ShapeCast2D
+CharacterBody2D
+RigidBody2D
+Area2D

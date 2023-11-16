@@ -1,9 +1,0 @@
-res://Scenes/UI/Benchmark.tscn
-res://Shaders/boxMat.gdshader
-res://Materials/PlayerMat.tres
-res://Materials/BoxMat.tres
-res://Shaders/boxBorderMat.gdshader
-res://Scenes/sample_scene.tscn
-res://Scenes/player.tscn
-res://Scenes/spawn.tscn
-res://Shaders/ballMat.gdshader

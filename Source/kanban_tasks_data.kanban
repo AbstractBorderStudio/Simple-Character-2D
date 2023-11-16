@@ -1,0 +1,88 @@
+{
+	"categories": [
+		{
+			"uuid": "b6261600-ede8-4c61-9aa2-e04692448ff9",
+			"title": "Task",
+			"color": "268cd1"
+		}
+	],
+	"stages": [
+		{
+			"uuid": "e2a8c69d-9f18-4573-9b20-a0690458553c",
+			"title": "Todo",
+			"tasks": []
+		},
+		{
+			"uuid": "ea82678e-9213-43ef-9f90-78012a0fa9c6",
+			"title": "Doing",
+			"tasks": []
+		},
+		{
+			"uuid": "812eedcd-374a-40eb-a3c6-bc04f4e88378",
+			"title": "Done",
+			"tasks": []
+		}
+	],
+	"tasks": [
+		{
+			"uuid": "0dd805db-3628-4135-83cd-e51dc0daae91",
+			"title": "Make a bububaba",
+			"description": "asdfasdfsdfsadfsdafasd",
+			"category": "b6261600-ede8-4c61-9aa2-e04692448ff9",
+			"steps": []
+		},
+		{
+			"uuid": "a11e801a-058d-4c7f-8d4f-15cb2ca429f6",
+			"title": "ADFSADFASD",
+			"description": "ASDFASDFASF",
+			"category": "b6261600-ede8-4c61-9aa2-e04692448ff9",
+			"steps": [
+				{
+					"details": "ASDFASDFAS",
+					"done": false
+				},
+				{
+					"details": "ASF",
+					"done": false
+				},
+				{
+					"details": "SA",
+					"done": false
+				},
+				{
+					"details": "F",
+					"done": false
+				},
+				{
+					"details": "SAF",
+					"done": false
+				},
+				{
+					"details": "SA",
+					"done": false
+				},
+				{
+					"details": "DF",
+					"done": false
+				},
+				{
+					"details": "AS",
+					"done": false
+				}
+			]
+		}
+	],
+	"layout": {
+		"columns": [
+			[
+				"e2a8c69d-9f18-4573-9b20-a0690458553c"
+			],
+			[
+				"ea82678e-9213-43ef-9f90-78012a0fa9c6"
+			],
+			[
+				"812eedcd-374a-40eb-a3c6-bc04f4e88378"
+			]
+		]
+	}
+}

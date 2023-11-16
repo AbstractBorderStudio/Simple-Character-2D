@@ -1,0 +1,13 @@
+res://Scenes/sample_scene.tscn
+res://Shaders/boxMat.gdshader
+res://Materials/PlayerMat.tres
+res://Materials/BoxMat.tres
+res://Shaders/boxBorderMat.gdshader
+res://Shaders/ballMat.gdshader
+res://Scenes/player.tscn
+res://Scenes/UI/Benchmark.tscn
+res://Scripts/Controllers/CharacterController.cs
+res://Scripts/OLD/Move.cs
+res://Scripts/Trail.cs
+res://Scripts/UI/Benchmark.cs
+res://Scripts/SceneManager.cs

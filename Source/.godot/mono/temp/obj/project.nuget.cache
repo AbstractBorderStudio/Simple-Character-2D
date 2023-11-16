@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6HUhIulyCYn20Z4oKCh8ESb7DPEv8K5TGj5Tghc3zwnLva6nZQMq5DuPbEo+0tJrBzLb3++CbZhdSVKXjmUwRA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\Documents\\Godot\\TTSWY\\TTSWY.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
