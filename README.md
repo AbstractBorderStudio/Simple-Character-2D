@@ -118,6 +118,10 @@ if (coyoteTimeCount <= 0f) jumpPhase = maxAirJumps;
 
 ![Coyote.png](imgs/cdd5ddab43274afcb4344e8804253528.png)
 
+## Squash & Strech
+
+// TODO
+
 # Prototyping
 
 All the implemented code can be found in [CharacterController.cs](Source\Scripts\Controllers\CharacterController.cs)
@@ -132,6 +136,7 @@ All the implemented code can be found in [CharacterController.cs](Source\Scripts
 		- [x] simple dash
 		- [x] dash with cooldown
     - [x] handling slopes
+    - [x] basic squash & strech effect 
 
 ---
 # CREDITS
@@ -146,3 +151,4 @@ All the implemented code can be found in [CharacterController.cs](Source\Scripts
 - [Making a Jump You Can Actually Use In Godot](https://www.youtube.com/watch?v=IOe1aGY6hXA)
 - [Physics for Game Dev — A Platformer Physics Cheatsheet](https://medium.com/@brazmogu/physics-for-game-dev-a-platformer-physics-cheatsheet-f34b09064558#:~:text=Jump%20Height%20(and%20Velocity)&text=For%20that%2C%20we'll%20take,i.e.%20v%20%3D%20v'%2B%20gt)
 - [Coyote Time & Jump Buffering In Unity](https://www.youtube.com/watch?v=RFix_Kg2Di0)
+- [Godot Squash and Stretch Tutorial!](https://www.youtube.com/watch?v=g53fkpHvoGA)
