@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://djslgi6lagpj1"]
+[gd_scene load_steps=8 format=3 uid="uid://djslgi6lagpj1"]
 
 [ext_resource type="Script" path="res://Scripts/Controllers/CharacterController.cs" id="1_3kwn7"]
 [ext_resource type="Texture2D" uid="uid://caw5xjspc3qv2" path="res://icon.svg" id="1_xvlu2"]
@@ -7,10 +7,39 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6mjec"]
 size = Vector2(128, 128)
 
-[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("sprite")]
+[sub_resource type="Gradient" id="Gradient_05xcv"]
+offsets = PackedFloat32Array(0, 0.488987, 1)
+colors = PackedColorArray(0.340339, 0.340339, 0.340339, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_aww33"]
+gradient = SubResource("Gradient_05xcv")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_43jjo"]
+lifetime_randomness = 0.5
+emission_shape = 3
+emission_box_extents = Vector3(42, 0, 0)
+particle_flag_disable_z = true
+direction = Vector3(0, -1, 0)
+spread = 90.0
+gravity = Vector3(0, 0, 0)
+initial_velocity_min = 250.0
+initial_velocity_max = 300.0
+angular_velocity_min = -20.0
+angular_velocity_max = 20.0
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+angle_min = -408.3
+angle_max = 357.2
+scale_min = 5.0
+scale_max = 10.0
+color_ramp = SubResource("GradientTexture1D_aww33")
+
+[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("sprite", "walkParticles", "jumpParticles")]
 scale = Vector2(0.3, 0.3)
 script = ExtResource("1_3kwn7")
 sprite = NodePath("Sprite")
+walkParticles = NodePath("WalkParticles")
+jumpParticles = NodePath("JumpParticles")
 
 [node name="Sprite" type="Sprite2D" parent="."]
 material = ExtResource("2_rn606")
@@ -20,3 +49,17 @@ offset = Vector2(0, -64)
 [node name="Collider" type="CollisionShape2D" parent="."]
 position = Vector2(0, -64)
 shape = SubResource("RectangleShape2D_6mjec")
+
+[node name="WalkParticles" type="GPUParticles2D" parent="."]
+emitting = false
+amount = 100
+process_material = SubResource("ParticleProcessMaterial_43jjo")
+lifetime = 2.0
+
+[node name="JumpParticles" type="GPUParticles2D" parent="."]
+emitting = false
+amount = 20
+process_material = SubResource("ParticleProcessMaterial_43jjo")
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0

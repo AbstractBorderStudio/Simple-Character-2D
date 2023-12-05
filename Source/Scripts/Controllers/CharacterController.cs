@@ -13,6 +13,7 @@ public partial class CharacterController : CharacterBody2D
     [ExportGroup("General")]
     [ExportSubgroup("Misc")]
     [Export] private Sprite2D sprite;
+    [Export] private GpuParticles2D walkParticles;
     private CharacterInput input;
     private Vector2 currentVelocity;
 
@@ -33,6 +34,7 @@ public partial class CharacterController : CharacterBody2D
         Dash(delta);
         // squash and stretch effect on jump
         AddSquashAndStretch(IsOnFloor());
+        AddParticles(IsOnFloor());
 
         ApplyMovement();
     }
@@ -66,6 +68,18 @@ public partial class CharacterController : CharacterBody2D
         }
         else {
             currentVelocity.X *= dashSpeedMultiplier;
+        }
+    }
+
+    private void AddParticles(bool isOnFloor)
+    {
+        if (isOnFloor)
+        {
+            walkParticles.Emitting = (Mathf.Abs(currentVelocity.X) > 0f);
+        }
+        else
+        {
+            walkParticles.Emitting = false;
         }
     }
     #endregion 
@@ -191,11 +205,11 @@ public partial class CharacterController : CharacterBody2D
             // squash and stretch effect on walk
             if (currentVelocity.X > 0f) 
             {
-                sprite.Scale = sprite.Scale.Lerp(new Vector2(1.1f, 0.9f), 0.2f);
+                sprite.Scale = sprite.Scale.Lerp(new Vector2(1.3f, 0.7f), 0.2f);
             } 
             else 
             {
-                sprite.Scale = sprite.Scale.Lerp(new Vector2(1f, 1f), 0.2f);
+                sprite.Scale = sprite.Scale.Lerp(new Vector2(1f, 1f), 0.15f);
             }
         }
         else
