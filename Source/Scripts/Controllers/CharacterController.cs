@@ -10,6 +10,9 @@ using System.ComponentModel;
 
 public partial class CharacterController : CharacterBody2D
 {
+    [ExportGroup("General")]
+    [ExportSubgroup("Misc")]
+    [Export] private Sprite2D sprite;
     private CharacterInput input;
     private Vector2 currentVelocity;
 
@@ -28,6 +31,8 @@ public partial class CharacterController : CharacterBody2D
         ComputeGravity(delta);
         ComputeJump(delta);
         Dash(delta);
+        // squash and stretch effect on jump
+        AddSquashAndStretch(IsOnFloor());
 
         ApplyMovement();
     }
@@ -100,7 +105,7 @@ public partial class CharacterController : CharacterBody2D
 
     private int jumpPhase = 0;
     private float jumpVelocity, jumpGravity, fallGravity;
-    private bool jumpBuffer = false, canJump = false;
+    private bool jumpBuffer = false, canJump = false, jumping = false;
     private float jumpBufferTime;
     private float coyoteTimeCount;
     private float jumpHeightCount;
@@ -166,6 +171,37 @@ public partial class CharacterController : CharacterBody2D
         else 
         {
             canJump = true;
+        }
+    }
+
+    /// <summary>
+    /// Added squash and stretch effect on jump
+    /// </summary>
+    /// <param name="isOnFloor"></param>
+    private void AddSquashAndStretch(bool isOnFloor)
+    {
+        // handle squash and stretch effect on jump
+        if (isOnFloor)
+        {
+            if (jumping)
+                sprite.Scale = new Vector2(1.2f, 0.8f);
+                jumping = false;
+            sprite.Scale = sprite.Scale.Lerp(new Vector2(1f, 1f), 0.3f);
+
+            // squash and stretch effect on walk
+            if (currentVelocity.X > 0f) 
+            {
+                sprite.Scale = sprite.Scale.Lerp(new Vector2(1.1f, 0.9f), 0.2f);
+            } 
+            else 
+            {
+                sprite.Scale = sprite.Scale.Lerp(new Vector2(1f, 1f), 0.2f);
+            }
+        }
+        else
+        {    
+            jumping = true;
+            sprite.Scale = sprite.Scale.Lerp(new Vector2(0.75f, 1.25f), 0.1f);//jumpHeightCount / timeToPeak);
         }
     }
     #endregion

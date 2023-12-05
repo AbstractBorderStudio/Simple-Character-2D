@@ -5,17 +5,18 @@
 [ext_resource type="Material" uid="uid://lanru1d2rgsd" path="res://Materials/PlayerMat.tres" id="2_rn606"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6mjec"]
-size = Vector2(38, 64)
+size = Vector2(128, 128)
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("sprite")]
+scale = Vector2(0.3, 0.3)
 script = ExtResource("1_3kwn7")
+sprite = NodePath("Sprite")
 
 [node name="Sprite" type="Sprite2D" parent="."]
 material = ExtResource("2_rn606")
-position = Vector2(0.200001, -32)
-scale = Vector2(0.3, 0.5)
 texture = ExtResource("1_xvlu2")
+offset = Vector2(0, -64)
 
 [node name="Collider" type="CollisionShape2D" parent="."]
-position = Vector2(0.200001, -32)
+position = Vector2(0, -64)
 shape = SubResource("RectangleShape2D_6mjec")
