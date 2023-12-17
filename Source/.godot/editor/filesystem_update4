@@ -5,9 +5,4 @@ res://Materials/BoxMat.tres
 res://Shaders/boxBorderMat.gdshader
 res://Shaders/ballMat.gdshader
 res://Scenes/UI/Benchmark.tscn
-res://Scripts/Controllers/CharacterController.cs
-res://Scripts/OLD/Move.cs
-res://Scripts/SceneManager.cs
-res://Scripts/Trail.cs
-res://Scripts/UI/Benchmark.cs
 res://Scenes/player.tscn

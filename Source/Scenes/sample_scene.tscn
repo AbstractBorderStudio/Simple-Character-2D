@@ -25,8 +25,9 @@ dashCooldown = 0.3
 
 [node name="Trail" parent="." node_paths=PackedStringArray("target") instance=ExtResource("4_kcn0j")]
 position = Vector2(10, 0)
+points = PackedVector2Array(1237, 342)
 default_color = Color(0.333333, 0.65098, 0.894118, 1)
-maxLenght = 100
+maxLenght = 25
 offset = -21
 target = NodePath("../Player")
 

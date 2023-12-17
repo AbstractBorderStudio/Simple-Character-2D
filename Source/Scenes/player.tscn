@@ -34,12 +34,11 @@ scale_min = 5.0
 scale_max = 10.0
 color_ramp = SubResource("GradientTexture1D_aww33")
 
-[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("sprite", "walkParticles", "jumpParticles")]
+[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("sprite", "walkParticles")]
 scale = Vector2(0.3, 0.3)
 script = ExtResource("1_3kwn7")
 sprite = NodePath("Sprite")
 walkParticles = NodePath("WalkParticles")
-jumpParticles = NodePath("JumpParticles")
 
 [node name="Sprite" type="Sprite2D" parent="."]
 material = ExtResource("2_rn606")
@@ -52,14 +51,6 @@ shape = SubResource("RectangleShape2D_6mjec")
 
 [node name="WalkParticles" type="GPUParticles2D" parent="."]
 emitting = false
-amount = 100
-process_material = SubResource("ParticleProcessMaterial_43jjo")
-lifetime = 2.0
-
-[node name="JumpParticles" type="GPUParticles2D" parent="."]
-emitting = false
-amount = 20
+amount = 30
 process_material = SubResource("ParticleProcessMaterial_43jjo")
 lifetime = 0.5
-one_shot = true
-explosiveness = 1.0
