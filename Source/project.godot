@@ -13,7 +13,7 @@ config_version=5
 config/name="Simple Character 2D"
 config/tags=PackedStringArray("game", "learn", "prototype")
 run/main_scene="res://Scenes/sample_scene.tscn"
-config/features=PackedStringArray("4.1", "C#", "Forward Plus")
+config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 config/icon="res://logo.png"
 
 [dotnet]

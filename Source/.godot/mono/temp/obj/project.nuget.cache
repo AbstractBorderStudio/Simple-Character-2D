@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "+SFdtJwEOk0LEimqn3VFZGFf+956lCT6gFtPT94UIQ7FG6YTcySj1LprAQnodjldWY6fu/1CuIz3i+BihVfMgw==",
+  "dgSpecHash": "VZylv7z0Mpw55z97AiAeV1ViYHC7X98wQGFbpK8EDoHxf+yo7q94md09eSTfd4/5ctCsMtI5/xg8lBzkhE7Ldg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danie\\Documents\\Godot\\TTSWY\\Source\\TTSWY.csproj",
+  "projectFilePath": "C:\\Users\\danie\\OneDrive\\Documenti\\GameDev\\Godot\\Godot_4\\TTSWY\\Source\\TTSWY.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\danie\\.nuget\\packages\\godot.sourcegenerators\\4.1.2\\godot.sourcegenerators.4.1.2.nupkg.sha512",
-    "C:\\Users\\danie\\.nuget\\packages\\godotsharp\\4.1.2\\godotsharp.4.1.2.nupkg.sha512",
-    "C:\\Users\\danie\\.nuget\\packages\\godotsharpeditor\\4.1.2\\godotsharpeditor.4.1.2.nupkg.sha512"
+    "C:\\Users\\danie\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }

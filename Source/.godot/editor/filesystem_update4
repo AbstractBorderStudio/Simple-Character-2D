@@ -4,5 +4,3 @@ res://Materials/PlayerMat.tres
 res://Materials/BoxMat.tres
 res://Shaders/boxBorderMat.gdshader
 res://Shaders/ballMat.gdshader
-res://Scenes/UI/Benchmark.tscn
-res://Scenes/player.tscn

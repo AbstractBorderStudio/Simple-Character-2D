@@ -5,3 +5,4 @@
 [resource]
 shader = ExtResource("1_p32sx")
 shader_parameter/color = Color(1, 1, 1, 1)
+shader_parameter/bend_int = -128.0

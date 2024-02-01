@@ -5,3 +5,4 @@
 [resource]
 shader = ExtResource("1_ehjc0")
 shader_parameter/color = Color(0.458824, 0.458824, 0.458824, 1)
+shader_parameter/bend_int = 0.0

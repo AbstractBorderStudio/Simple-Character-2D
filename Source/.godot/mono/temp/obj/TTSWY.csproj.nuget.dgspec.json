@@ -1,33 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danie\\Documents\\Godot\\TTSWY\\Source\\TTSWY.csproj": {}
+    "C:\\Users\\danie\\OneDrive\\Documenti\\GameDev\\Godot\\Godot_4\\TTSWY\\Source\\TTSWY.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\Documents\\Godot\\TTSWY\\Source\\TTSWY.csproj": {
+    "C:\\Users\\danie\\OneDrive\\Documenti\\GameDev\\Godot\\Godot_4\\TTSWY\\Source\\TTSWY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\Documents\\Godot\\TTSWY\\Source\\TTSWY.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Documenti\\GameDev\\Godot\\Godot_4\\TTSWY\\Source\\TTSWY.csproj",
         "projectName": "TTSWY",
-        "projectPath": "C:\\Users\\danie\\Documents\\Godot\\TTSWY\\Source\\TTSWY.csproj",
+        "projectPath": "C:\\Users\\danie\\OneDrive\\Documenti\\GameDev\\Godot\\Godot_4\\TTSWY\\Source\\TTSWY.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\Documents\\Godot\\TTSWY\\Source\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\danie\\OneDrive\\Documenti\\GameDev\\Godot\\Godot_4\\TTSWY\\Source\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Users\\danie\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,15 +40,15 @@
           "dependencies": {
             "Godot.SourceGenerators": {
               "target": "Package",
-              "version": "[4.1.2, )"
+              "version": "[4.2.1, )"
             },
             "GodotSharp": {
               "target": "Package",
-              "version": "[4.1.2, )"
+              "version": "[4.2.1, )"
             },
             "GodotSharpEditor": {
               "target": "Package",
-              "version": "[4.1.2, )"
+              "version": "[4.2.1, )"
             }
           },
           "imports": [
@@ -70,12 +62,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

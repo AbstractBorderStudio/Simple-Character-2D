@@ -1,6 +1,6 @@
 is_global = true
 build_property.GodotDisabledSourceGenerators = 
-build_property.GodotProjectDir = C:\Users\danie\Documents\Godot\TTSWY\Source\
+build_property.GodotProjectDir = C:\Users\danie\OneDrive\Documenti\GameDev\Godot\Godot_4\TTSWY\Source\
 build_property.GodotProjectDirBase64 = 
 build_property.GodotSourceGenerators = 
 build_property.IsGodotToolsProject = 
@@ -13,4 +13,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TTSWY
-build_property.ProjectDir = C:\Users\danie\Documents\Godot\TTSWY\Source\
+build_property.ProjectDir = C:\Users\danie\OneDrive\Documenti\GameDev\Godot\Godot_4\TTSWY\Source\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
